@@ -26,7 +26,7 @@ date_default_timezone_set('Asia/Kolkata');
 $root = "https://".$_SERVER['HTTP_HOST'];
 $root .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
  $config['base_url']    = "$root";
-$config['base_url']    = "http://localhost/sip/";
+$config['base_url']    = "https://sip.femraj.co.in/";
 /*//////
 |--------------------------------------------------------------------------
 | Index File
